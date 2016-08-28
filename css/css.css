@@ -119,44 +119,54 @@ li
 .animate .toright
 {
     animation: toright 2s;
+    -webkit-animation: toright 2s;
 }
 .animate .toup
 {
     animation: toup 2s;
+    -webkit-animation: toup 2s;
 }
 .animate .toleft
 {
     animation: toleft 2s;
+    -webkit-animation: toleft 2s;
 }
 .animate .toleft2
 {
     animation: toleft 3s;
+    -webkit-animation: toleft 3s;
 }
 .animate .todown
 {
     animation: todown 2s;
+    -webkit-animation: todown 2s;
 }
 .animate .xuanzhuan
 {
     animation: xuanzhuan 2s;
+    -webkit-animation: xuanzhuan 2s;
 }
 .animate .toright2
 {
     animation: toright2 1s;
+    -webkit-animation: toright2 1s;
 }
 
 .animate .toright3
 {
     animation: toright2 2s;
+    -webkit-animation: toright2 2s;
 }
 .animate .toright4
 {
     animation: toright2 3s;
+    -webkit-animation: toright2 3s;
 }
 
 .animate .colors
 {
     animation: colors 3s;
+    -webkit-animation: colors 3s;
 }
 @keyframes toright
 {
