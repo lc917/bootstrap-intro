@@ -5,7 +5,7 @@ $(function(){
 		$("section").each(function(){
 			var f = $(this).offset().top;
 			var top = f-b-c;
-			console.log(top);
+			alert(top);
 			if(top<=-200){
 				$(this).addClass("animate");
 			}
