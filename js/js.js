@@ -10,7 +10,6 @@ $(function(){
 				$(this).addClass("animate");
 			}
 		})
-		alert($(".animate").size());
 	});
 
 	(function(){
