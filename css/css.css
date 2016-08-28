@@ -183,8 +183,37 @@ li
         opacity: 1;
     }
 }
+@-webkit-keyframes toright
+{
+    0%
+    {
+        margin-left: -200px;
 
+        opacity: 0;
+    }
+    100%
+    {
+        margin-left: 0;
+
+        opacity: 1;
+    }
+}
 @keyframes toup
+{
+    0%
+    {
+        margin-top: 100px;
+
+        opacity: 0;
+    }
+    100%
+    {
+        margin-top: 0;
+
+        opacity: 1;
+    }
+}
+@-webkit-keyframes toup
 {
     0%
     {
@@ -215,8 +244,37 @@ li
         opacity: 1;
     }
 }
+@-webkit-keyframes toleft
+{
+    0%
+    {
+        margin-left: 200px;
 
+        opacity: 0;
+    }
+    100%
+    {
+        margin-left: 0;
+
+        opacity: 1;
+    }
+}
 @keyframes toright2
+{
+    0%
+    {
+        margin-right: 200px;
+
+        opacity: 0;
+    }
+    100%
+    {
+        margin-right: 0;
+
+        opacity: 1;
+    }
+}
+@-webkit-keyframes toright2
 {
     0%
     {
@@ -246,6 +304,21 @@ li
         opacity: 1;
     }
 }
+@-webkit-keyframes todown
+{
+    0%
+    {
+        margin-top: -100px;
+
+        opacity: 0;
+    }
+    100%
+    {
+        margin-top: 0;
+
+        opacity: 1;
+    }
+}
 @keyframes xuanzhuan
 {
     0%
@@ -257,8 +330,29 @@ li
         transform: rotate(0);
     }
 }
-
+@-webkit-keyframes xuanzhuan
+{
+    0%
+    {
+        transform: rotate(360deg);
+    }
+    100%
+    {
+        transform: rotate(0);
+    }
+}
 @keyframes colors
+{
+    0%
+    {
+        color: #000;
+    }
+    100%
+    {
+        color: #fff;
+    }
+}
+@-webkit-keyframes colors
 {
     0%
     {
